@@ -124,7 +124,7 @@ function searchbar_listener(event) {
     // event.preventDefault();
     var q = $('input[name=search]').val();
     if (q !== '') {
-      var url = 'https://github.com/ruanyf/es6tutorial/search?utf8=✓&q=' + encodeURIComponent(q);
+      var url = 'https://github.com/cuimengkai/EC6/search?utf8=✓&q=' + encodeURIComponent(q);
       window.open(url, '_blank');
       win.focus();
     }
