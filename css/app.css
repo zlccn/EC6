@@ -295,9 +295,9 @@ input.searchButton {
 
     height: 20px;
     width: 70px;
-    top: 20px;
+    top: 40px;
 
-    margin-left: 930px;
+    margin-left: 1200px;
     margin-top: 0px;
 
     color: #FFF;
@@ -396,12 +396,13 @@ input.searchButton {
 }
 
 #pagedown{
+
 	margin-left:5px;
 }
 
 @media (min-width: 40rem) {
 	#flip{
-		margin-left:545px;
+		margin-left:745px;
 		width:150px;
 	}
 }
