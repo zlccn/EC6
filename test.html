@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		  <link rel="stylesheet" href="app/bower_components/normalize-css/normalize.css">
+  <link rel="stylesheet" href="css/app.css">
+		<script type="text/javascript" src="js/jquery-1.11.0.min.js" ></script>
+		<script type="text/javascript" src="js/prism.js" ></script>
+		<script type="text/javascript" src="js/marked.js" ></script>
+	</head>
+	<body>
+		<div id="docs"></div>
+	</body>
+	<script>
+		$.get("./docs/array.md",function(data){
+			$("#docs").html(marked(data))
+			 $('#docs code').map(function() {
+              Prism.highlightElement(this);
+    });
+		});
+	</script>
+</html>
