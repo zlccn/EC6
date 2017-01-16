@@ -104,7 +104,9 @@ body {
     text-indent: -5px;  /* to compensate for the padding for the dash */
     font-size: 0.7rem;
 }
-
+p{
+	width: 165%;
+}
 form.searchBox {
   width: 180px;
   border: 1px solid #4682BE;
@@ -144,7 +146,7 @@ input.searchButton {
 
 @media (min-width: 40rem) {
 	#content {
-		width: 580px;
+		width: 600px;
 		padding-left:330px;
 		margin-left: 0px;
 		margin-right: 0px;
@@ -441,6 +443,7 @@ pre[class*="language-"] {
 
 /* Code blocks */
 pre[class*="language-"] {
+	width: 160%;
 	padding: 1em;
 	margin: .5em 0;
 	overflow: auto;
